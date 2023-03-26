@@ -5,5 +5,7 @@ const add = (first, second) => {
 const multiply = (first, second) => {
     return first * second;
 }
-
-export {add, multiply}
+const addToCart = (name) =>{
+    console.log("item added", name)
+}
+export {add, multiply, addToCart}
